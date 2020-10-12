@@ -7,26 +7,32 @@
 
 
      ```bash
-     cd ~/kubernetes-deepdive/simplenode
+     $ cd ~/kubernetes-deepdive/simplenode
      ```
 
 1.   Create the deployment and the Service:
 
      ```bash
-     sudo ./deploysimplenode.sh 
+	 $ sudo ./deploysimplenode.sh
+     [sudo] password for dynatrace:
+     namespace/workshop created
+     deployment.apps/simplenode created
+     service/simplenode exposed
+     ingress.extensions/simplenode-ingress created
 	 ```
  
 1.   Check the Ingress and access the app: 
 
      ```bash
-     kubectl get ing -n workshop
+     $ kubectl get ing -n workshop
      
+	 NAME                 CLASS    HOSTS                               ADDRESS     PORTS     AGE
+     simplenode-ingress   <none>   simplenode.xxx-xxx-xxx-xxx.nip.io   127.0.0.1   80, 443   2m31s
+
 	 ```
 
 1.   Access the application and click around to generate some traffic:
 
-	 ```bash
-	 sudo bash -c './keptn-in-a-box.sh &'
-	 ```
+
 
 ![SimpleNodeApp](/img/simple-node-app.PNG)
