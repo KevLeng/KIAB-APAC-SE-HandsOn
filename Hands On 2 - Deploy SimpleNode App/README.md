@@ -36,7 +36,7 @@
 
      ![SimpleNodeApp](/img/simple-node-app.PNG)
 
-1.   Find the service in Dynatrace and tag with "evalservice"
+1.   Find the service in Dynatrace and tag with "**evalservice**"
 
      ![SimpleNodeApp Service](/img/simple-node-app-service.PNG)
 
