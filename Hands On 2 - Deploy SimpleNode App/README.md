@@ -14,6 +14,7 @@
 
      ```bash
 	 $ sudo ./deploysimplenode.sh
+	 
      [sudo] password for dynatrace:
      namespace/workshop created
      deployment.apps/simplenode created
