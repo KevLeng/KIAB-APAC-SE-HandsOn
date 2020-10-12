@@ -34,6 +34,9 @@
 
 1.   Access the application and click around to generate some traffic:
 
+     ![SimpleNodeApp](/img/simple-node-app.PNG)
 
+1.   Find the service in Dynatrace and tag with "evalservice"
 
-![SimpleNodeApp](/img/simple-node-app.PNG)
+     ![SimpleNodeApp Service](/img/simple-node-app-service.PNG)
+
