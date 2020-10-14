@@ -10,6 +10,7 @@
 1.   Modify your new chart:
 
      a.     Change the metric to **Request count (Sum)**
+	 
      b.     Change the chart name to: **Transaction Volume;sli=svc_tv;pass=>2500**
 
 1.   Run the pipeline **03-performancetest-qualitygate** again, chect your new metric appears in the Keptn evaluation
