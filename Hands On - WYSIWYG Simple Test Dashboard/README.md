@@ -7,6 +7,8 @@
 
 1.    Remove the Test Transaction & Process Metrics (SLI/SLO) charts.
 
+1.    Change the Transaction Volume tile so its name is now **Transaction Volume;sli=svc_tv;pass=>2500;key=true**
+
 1.    Run the pipeline **02-simpletest-qualitygate** again (remember to set the DeploymentURI), check your new metrics appears in the Keptn evaluation. It should be using your new dashboard.
 
 
